@@ -58,4 +58,4 @@ export into one ranked options-income plan. Runs on localhost; nothing leaves th
 ---
 
 Reach me at nathaniel.knapp@gmail.com or on
-[LinkedIn](https://www.linkedin.com/in/nathaniel-knapp-63012741/).
+[LinkedIn](https://www.linkedin.com/in/nathan-knapp-63012741/).
