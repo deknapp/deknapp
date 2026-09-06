@@ -60,6 +60,21 @@ MCP tool servers and driven by Claude agents. Includes a retrospective validatio
 harness that runs the agents against programs whose outcomes are already known, so
 the output can be scored rather than assumed.
 
+**[otowi](https://github.com/deknapp/otowi)** — traffic simulation for northern
+New Mexico: the Los Alamos commute over Otowi Bridge, and getting across Santa Fe.
+Most traffic models built outside transport agencies are an OpenStreetMap network
+plus randomly generated trips — they animate beautifully and mean nothing, because
+the demand is invented. Here the origin–destination flows come from census LEHD
+LODES data. Early, and labelled as such: nothing is calibrated yet, so no number
+it produces should be believed until it is.
+
+**[xcpredict](https://github.com/deknapp/xcpredict)** — predicts FIS Cross-Country
+World Cup results from athletes' prior races, driven by the **published start list**
+for the specific race. A season-long ranking will happily tell you the favourite
+wins Sunday's 20 km; it does not know they skipped the trip. Elo ratings feed a
+Monte-Carlo simulation, and the field comes from FIS itself, so a prediction never
+contains someone who is not starting.
+
 **[polarswim](https://github.com/deknapp/polarswim)** — Polar computes per-length
 swim data in its cloud, shows it in the web app, and omits it from every file
 export. This pulls it out of the private API into local SQLite. 7,600 lengths and
@@ -73,6 +88,13 @@ asking a model to remember them.
 **[taper](https://github.com/deknapp/taper)** — a running simulator grounded in
 exercise-physiology research. Oregon Trail for runners, built on a decade of my
 own Strava data.
+
+**[waxcast](https://github.com/deknapp/waxcast)** — kick and glide wax calls for
+Anchorage ski trails, with the reasoning attached. Every wax chart online asks for
+the air temperature, which is the wrong input twice over: wax responds to snow
+temperature, and snow that has thawed and refrozen for three days behaves nothing
+like fresh snow at the same reading. This works from the three-day history instead.
+No build step, no server, no API key.
 
 **[mtg_ai](https://github.com/deknapp/mtg_ai)** — sealed-deck builder that reads
 your Arena pool straight from the game log, scores all ten color pairs on real
